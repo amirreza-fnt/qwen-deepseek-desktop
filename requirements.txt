@@ -1,0 +1,10 @@
+PySide6==6.8.3
+PySide6-Addons==6.8.3
+keyring>=25,<26
+curl-cffi>=0.11,<1
+wasmtime>=20,<51
+numpy>=1.26,<3
+pyinstaller>=6,<7
+pytest>=8,<10
+markdown>=3.5,<4
+Pygments>=2.15,<3

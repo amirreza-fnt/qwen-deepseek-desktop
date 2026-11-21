@@ -1,0 +1,44 @@
+name: Bug report
+description: Something does not work as expected
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report! **Never paste tokens, cookies, emails or other private data** — the diagnostic log is already redacted, but please double-check it.
+  - type: input
+    id: version
+    attributes:
+      label: Version / commit
+      placeholder: v1.0.0 or commit hash
+    validations:
+      required: true
+  - type: dropdown
+    id: provider
+    attributes:
+      label: Provider
+      options: [Qwen (built-in browser), Qwen (HTTP token), DeepSeek, Not provider-specific]
+    validations:
+      required: true
+  - type: dropdown
+    id: language
+    attributes:
+      label: UI language
+      options: [English, فارسی]
+  - type: input
+    id: os
+    attributes:
+      label: OS
+      placeholder: Windows 11 23H2
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened and what did you expect?
+      description: Steps to reproduce, screenshots (no private data).
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: Diagnostic log (optional, redacted)
+      render: text
