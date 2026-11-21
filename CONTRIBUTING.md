@@ -33,3 +33,7 @@ python main.py --lang en --ui-preview-agent shot Light
 * No captcha solving, anti-bot signature forging or cookie exporting. The app only uses the user's own signed-in web session; verification is always completed by the user.
 * Keep the review-before-write guarantee of Project mode: nothing touches disk without the user pressing “Apply”, and commands/downloads need explicit approval.
 * Add or update tests for behaviour changes; CI runs on Windows and Ubuntu.
+
+## CI
+
+A ready-to-use GitHub Actions workflow (Windows + Ubuntu, Python 3.11/3.12, offscreen Qt) is in [`docs/ci/tests.yml`](docs/ci/tests.yml). Maintainers: copy it to `.github/workflows/tests.yml` to enable it.

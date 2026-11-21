@@ -4,7 +4,6 @@
 
 **A free, open-source desktop AI coding assistant for Windows — chat with Qwen and DeepSeek in one app, stream full code in the chat, and let the model edit your project with reviewed diffs.**
 
-[![tests](https://github.com/amirreza-fnt/qwen-deepseek-desktop/actions/workflows/tests.yml/badge.svg)](https://github.com/amirreza-fnt/qwen-deepseek-desktop/actions/workflows/tests.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 ![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue.svg)
 ![PySide6 / Qt 6](https://img.shields.io/badge/PySide6-Qt%206-41cd52.svg)

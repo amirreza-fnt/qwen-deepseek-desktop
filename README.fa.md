@@ -4,7 +4,6 @@
 
 **دستیار برنامه‌نویسی هوش مصنوعی رایگان و متن‌باز برای ویندوز: گفت‌وگو با Qwen و DeepSeek در یک برنامه، نوشتن کامل کد داخل چت، و ویرایش فایل‌های پروژه با بازبینی تغییرات.**
 
-[![tests](https://github.com/amirreza-fnt/qwen-deepseek-desktop/actions/workflows/tests.yml/badge.svg)](https://github.com/amirreza-fnt/qwen-deepseek-desktop/actions/workflows/tests.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 ![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue.svg)
 
